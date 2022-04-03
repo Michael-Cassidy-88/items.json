@@ -3,25 +3,19 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "201"
+						"N": "1"
 					},
 					"ProductCategory": {
-						"S": "Bicycle"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "Womens Road Bike"
+						"S": "Bacon"
 					},
-					"BicycleType": {
-						"S": "Road"
+					"MainMacronutrient": {
+						"S": "Fat"
 					},
-					"Brand": {
-						"S": "Raleigh"
-					},
-					"Price": {
-						"N": "399"
-					},
-					"Color": {
-						"S": "Red"
+					"Micronutrient": {
+						"S": "VitB"
 					}
 				}
 			}
@@ -30,22 +24,19 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "403"
+						"N": "2"
 					},
 					"ProductCategory": {
-						"S": "Helmet"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "Womens Cycling Helmet"
+						"S": "Steak"
 					},
-					"Size": {
-						"S": "Small"
+					"MainMacronutrient": {
+						"S": "Protein"
 					},
-					"Price": {
-						"S": "99"
-					},
-					"Color": {
-						"S": "Black"
+					"Micronutrient": {
+						"S": "VitB"
 					}
 				}
 			}
@@ -54,22 +45,19 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "411"
+						"N": "3"
 					},
 					"ProductCategory": {
-						"S": "Book"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "The Read Aloud Cloud"
+						"S": "Eggs"
 					},
-					"Author": {
-						"S": "Forrest Brazeal"
+					"MainMacronutrient": {
+						"S": "Protein"
 					},
-					"Price": {
-						"N": "19.99"
-					},
-					"Format": {
-						"S": "Hardback"
+					"Micronutrient": {
+						"S": "Choline"
 					}
 				}
 			}
@@ -78,22 +66,19 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "563"
+						"N": "4"
 					},
 					"ProductCategory": {
-						"S": "Helmet"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "Mens Cycling Helmet"
+						"S": "Spinach"
 					},
-					"Size": {
-						"S": "Small"
+					"MainMacronutrient": {
+						"S": "Carb"
 					},
-					"Price": {
-						"N": "75"
-					},
-					"Color": {
-						"S": "Blue"
+					"Micronutrient": {
+						"S": "VitK"
 					}
 				}
 			}
@@ -102,22 +87,19 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "543"
+						"N": "5"
 					},
 					"ProductCategory": {
-						"S": "Helmet"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "Womens Cycling Helmet"
+						"S": "Potato"
 					},
-					"Size": {
-						"S": "Medium"
+					"MainMacronutrient": {
+						"S": "Carb"
 					},
-					"Price": {
-						"N": "199"
-					},
-					"Color": {
-						"S": "Red"
+					"Micronutrient": {
+						"S": "VitC"
 					}
 				}
 			}
@@ -126,22 +108,19 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "493"
+						"N": "6"
 					},
 					"ProductCategory": {
-						"S": "Helmet"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "Childs Cycling Helmet"
+						"S": "Carrot"
 					},
-					"Size": {
-						"S": "Small"
+					"MainMacronutrient": {
+						"S": "Carb"
 					},
-					"Price": {
-						"N": "99"
-					},
-					"Color": {
-						"S": "Black"
+					"Micronutrient": {
+						"S": "VitA"
 					}
 				}
 			}
@@ -150,22 +129,19 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "347"
+						"N": "7"
 					},
 					"ProductCategory": {
-						"S": "Helmet"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "Womens Cycling Helmet"
+						"S": "Butter"
 					},
-					"Size": {
-						"S": "Small"
+					"MainMacronutrient": {
+						"S": "Fat"
 					},
-					"Price": {
-						"N": "79"
-					},
-					"Color": {
-						"S": "Blue"
+					"Micronutrient": {
+						"S": "VitA"
 					}
 				}
 			}
@@ -174,25 +150,19 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "467"
+						"N": "8"
 					},
 					"ProductCategory": {
-						"S": "Bicycle"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "Mens Road Bike"
+						"S": "Blueberry"
 					},
-					"BicycleType": {
-						"S": "Road"
+					"MainMacronutrient": {
+						"S": "Carb"
 					},
-					"Brand": {
-						"S": "Raleigh"
-					},
-					"Price": {
-						"N": "250"
-					},
-					"Color": {
-						"S": "Blue"
+					"Micronutrient": {
+						"S": "Fiber"
 					}
 				}
 			}
@@ -201,25 +171,40 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "566"
+						"N": "9"
 					},
 					"ProductCategory": {
-						"S": "Bicycle"
+						"S": "Food"
 					},
 					"Description": {
-						"S": "Mens Mountain Bike"
+						"S": "DarkChocolate"
 					},
-					"BicycleType": {
-						"S": "Mountain"
+					"MainMacronutrient": {
+						"S": "Fat"
 					},
-					"Brand": {
-						"S": "Raleigh"
+					"Micronutrient": {
+						"S": "Magnesium"
+					}
+				}
+			}
+		},
+		{
+			"PutRequest": {
+				"Item": {
+					"Id": {
+						"N": "10"
 					},
-					"Price": {
-						"N": "599"
+					"ProductCategory": {
+						"S": "Food"
 					},
-					"Color": {
-						"S": "Black"
+					"Description": {
+						"S": "CoffeeBean"
+					},
+					"MainMacronutrient": {
+						"S": "Carb"
+					},
+					"Micronutrient": {
+						"S": "ChlorogenicAcid"
 					}
 				}
 			}
